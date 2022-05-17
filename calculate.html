@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<htmml>
+    <head>
+        <title>
+            calculater
+        </title>
+        <link rel="stylesheet" href="calculate_style.css">
+    </head>
+   
+    <body> 
+        <div class="calcul">    
+          <form name="form1">  
+              <table>
+              
+                  <tr>
+                      <td> 
+                <input type="text" name="show" id="answer" /><br/><br/>
+               <input type="button" name="cal" id="calcul" value="1" onclick=" form1.show.value+='1' "/>
+               <input type="button" name="cal" id="calcul" value="2" onclick="form1.show.value+='2'"/>
+               <input type="button" name="cal" id="calcul" value="3" onclick="form1.show.value+='3'"/>
+               <input type="button" name="cal" id="calcul" value="+" onclick="form1.show.value+='+'"/>
+               </td></tr>
+               <tr>
+                   <td>
+               <input type="button" name="cal" id="calcul" value="4" onclick="form1.show.value+='4'"/>
+               <input type="button" name="cal" id="calcul" value="5" onclick="form1.show.value+='5'"/>
+               <input type="button" name="cal" id="calcul" value="6" onclick="form1.show.value+='6'"/>
+               <input type="button" name="cal" id="calcul" value="-" onclick="form1.show.value+='-'"/>
+               </td></tr>
+               <tr>
+                   <td>
+               <input type="button" name="cal" id="calcul" value="7" onclick="form1.show.value+='7'"/>
+               <input type="button" name="cal" id="calcul" value="8" onclick="form1.show.value+='8'"/>
+               <input type="button" name="cal" id="calcul" value="9" onclick="form1.show.value+='9'"/>
+               <input type="button" name="cal" id="calcul" value="*" onclick="form1.show.value+='*'"/>
+               </td></tr>
+               <tr>
+                   <td>
+               <input type="button" name="cal" id="calcul" value="." onclick="form1.show.value+='.'"/>
+               <input type="button" name="cal" id="calcul" value="0" onclick="form1.show.value+='0'"/>
+               <input type="button" name="cal" id="calcul" value="%" onclick="form1.show.value+='%'"/>
+               <input type="button" name="cal" id="calcul" value="=" onclick="form1.show.value=eval(form1.show.value)"/>
+               </td></tr>
+               <tr><td>
+                <div class="manish">
+                    <input type="button" name="clear" id="clear" value="Clear All" onclick="form1.show.value=''"/>
+                    </div> 
+               </td></tr>
+                 
+            </form>
+        </div>
+    </body>
+</htmml>

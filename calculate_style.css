@@ -1,0 +1,48 @@
+*{
+    padding:noness;
+    margin: auto;
+    text-decoration: none;
+}
+body{
+
+    background-color: pink;
+    width: 100%;
+    padding: 10px;
+    margin: auto;
+}
+.calcul{
+    width: 20%;
+    padding: 30px;
+    margin: auto;
+    background-color: blanchedalmond;
+    font-size: 40px;
+    border: 2px solid black;
+    border-radius: 20px;
+    box-shadow:4px 4px 3px black;
+}
+input[type="text"]{
+    width: 95%;
+    padding: 10px;
+    font-size: 40px;
+    border-radius: 10px;
+    background-color: #f1f1f1;
+    color: rgb(241, 75, 75);
+    text-shadow: 4px 3px 2px black;
+}
+input:hover{
+    color:red;
+}
+input[type="button"]{
+    width: 20%;
+    padding: 20px;
+    cursor: pointer;
+    margin: auto;
+    font-size: 30px;
+    background-color: green;
+    border-radius: 50px;
+}
+.manish{
+    width: 430%;
+    padding: 5px;
+    margin: auto;
+}
